@@ -38,7 +38,8 @@ function FlowerDetail() {
               alt={flower.name}
               style={styles.flowerImage}
               onError={(e) => {
-                e.target.src = `https://via.placeholder.com/600x400/FFB6C1/FFFFFF?text=${encodeURIComponent(flower.name)}`;
+                e.target.onerror = null;
+                        e.target.src = '/images/fallback.svg';
               }}
             />
           </div>
@@ -90,7 +91,8 @@ function FlowerDetail() {
                         alt={similarFlower.name}
                         style={styles.similarImage}
                         onError={(e) => {
-                          e.target.src = `https://via.placeholder.com/100x100/FFB6C1/FFFFFF?text=${encodeURIComponent(similarFlower.name)}`;
+                          e.target.onerror = null;
+                        e.target.src = '/images/fallback.svg';
                         }}
                       />
                       <span style={styles.similarName}>{similarFlower.name}</span>

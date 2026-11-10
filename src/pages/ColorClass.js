@@ -3,11 +3,11 @@ import { useNavigate, Link } from 'react-router-dom';
 import { colorCategories } from '../data/flowers';
 
 const colorImages = {
-  red: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=200&fit=crop',
-  yellow: 'https://images.unsplash.com/photo-1520431051406-b84345849851?w=800&h=200&fit=crop',
-  purple: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=200&fit=crop',
-  white: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=200&fit=crop',
-  mixed: 'https://images.unsplash.com/photo-1504707748692-419802cf939d?w=800&h=200&fit=crop'
+  red: '/images/banner-color-red.svg',
+  yellow: '/images/banner-color-yellow.svg',
+  purple: '/images/banner-color-purple.svg',
+  white: '/images/banner-color-white.svg',
+  mixed: '/images/banner-color-mixed.svg'
 };
 
 function ColorClass() {

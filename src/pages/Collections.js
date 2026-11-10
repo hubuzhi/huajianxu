@@ -9,7 +9,7 @@ function Collections() {
     {
       id: 1,
       name: '玫瑰',
-      image: 'https://ts2.tc.mm.bing.net/th/id/OIP-C.6MB8WA_-c2pN1qWA1BYS_QHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+      image: '/images/flowers/photo-玫瑰.jpg',
       meaning: '爱情',
       color: '#ff69b4',
       collectedAt: '2026-05-15',
@@ -18,7 +18,7 @@ function Collections() {
     {
       id: 2,
       name: '牡丹',
-      image: 'https://img95.699pic.com/photo/50533/8043.jpg_wh860.jpg',
+      image: '/images/flowers/photo-牡丹.jpg',
       meaning: '富贵',
       color: '#ffd700',
       collectedAt: '2026-05-10',
@@ -27,7 +27,7 @@ function Collections() {
     {
       id: 3,
       name: '兰花',
-      image: 'https://imgs.699pic.com/images/402/606/664.jpg!detail.v1',
+      image: '/images/flowers/photo-兰花.jpg',
       meaning: '典雅',
       color: '#9932cc',
       collectedAt: '2026-05-08',
@@ -36,7 +36,7 @@ function Collections() {
     {
       id: 4,
       name: '荷花',
-      image: 'https://imgs.699pic.com/images/402/635/212.jpg!detail.v1',
+      image: '/images/flowers/photo-荷花.jpg',
       meaning: '纯洁',
       color: '#00ced1',
       collectedAt: '2026-05-05',
@@ -45,7 +45,7 @@ function Collections() {
     {
       id: 5,
       name: '梅花',
-      image: 'https://img95.699pic.com/photo/40254/1290.jpg_wh860.jpg',
+      image: '/images/flowers/photo-梅花.jpg',
       meaning: '坚韧',
       color: '#ffb6c1',
       collectedAt: '2026-04-28',
@@ -54,7 +54,7 @@ function Collections() {
     {
       id: 6,
       name: '月季',
-      image: 'https://imgs.699pic.com/images/600/305/042.jpg!detail.v1',
+      image: '/images/flowers/photo-月季.jpg',
       meaning: '美丽',
       color: '#ff1493',
       collectedAt: '2026-04-20',
@@ -63,7 +63,7 @@ function Collections() {
     {
       id: 7,
       name: '菊花',
-      image: 'https://imgs.699pic.com/images/402/636/722.jpg!list1x.v2',
+      image: '/images/flowers/photo-菊花.jpg',
       meaning: '高洁',
       color: '#ff9a40',
       collectedAt: '2026-04-15',
@@ -72,7 +72,7 @@ function Collections() {
     {
       id: 8,
       name: '桂花',
-      image: 'https://img95.699pic.com/photo/40253/9399.jpg_wh860.jpg',
+      image: '/images/flowers/photo-桂花.jpg',
       meaning: '吉祥',
       color: '#32cd32',
       collectedAt: '2026-04-10',

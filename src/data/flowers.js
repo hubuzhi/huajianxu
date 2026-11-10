@@ -2,7 +2,7 @@ export const flowersData = [
   {
     id: 1,
     name: '玫瑰',
-    image: 'https://bpic.588ku.com/back_list_pic/20/08/04/d3062373fb097200f4515a268ce7ef84.jpg',
+    image: '/images/flowers/photo-玫瑰.jpg',
     season: '四季',
     color: '#e74c3c',
     colorCategory: '红色系',
@@ -14,7 +14,7 @@ export const flowersData = [
   {
     id: 2,
     name: '牡丹',
-    image: 'https://img.pconline.com.cn/images/upload/upc/tx/itbbs/1504/17/c44/5557719_1429255127035.jpg',
+    image: '/images/flowers/photo-牡丹.jpg',
     season: '春季',
     color: '#f39c12',
     colorCategory: '黄色系',
@@ -26,7 +26,7 @@ export const flowersData = [
   {
     id: 3,
     name: '菊花',
-    image: 'https://bpic.588ku.com/back_list_pic/20/11/05/3b176f9911dd82ea9058e4f21e8923d8.jpg',
+    image: '/images/flowers/photo-菊花.jpg',
     season: '秋季',
     color: '#f1c40f',
     colorCategory: '黄色系',
@@ -38,7 +38,7 @@ export const flowersData = [
   {
     id: 4,
     name: '兰花',
-    image: 'https://img95.699pic.com/photo/60073/7987.jpg_wh860.jpg',
+    image: '/images/flowers/photo-兰花.jpg',
     season: '冬季',
     color: '#9b59b6',
     colorCategory: '白色系',
@@ -50,7 +50,7 @@ export const flowersData = [
   {
     id: 5,
     name: '梅花',
-    image: 'https://imgs.699pic.com/images/600/618/300.jpg!detail.v1',
+    image: '/images/flowers/photo-梅花.jpg',
     season: '冬季',
     color: '#e74c3c',
     colorCategory: '红色系',
@@ -62,7 +62,7 @@ export const flowersData = [
   {
     id: 6,
     name: '荷花',
-    image: 'https://bpic.588ku.com/video_listen/588ku_pic/23/07/01/b636c9069ce6547cfd43e5bd8957ed31.jpg',
+    image: '/images/flowers/photo-荷花.jpg',
     season: '夏季',
     color: '#3498db',
     colorCategory: '白色系',
@@ -74,7 +74,7 @@ export const flowersData = [
   {
     id: 7,
     name: '桂花',
-    image: 'https://bpic.588ku.com/photo_water_img/24/03/20/338d0b16b3ab9c1b558b409b5189cef3.jpg',
+    image: '/images/flowers/photo-桂花.jpg',
     season: '秋季',
     color: '#f1c40f',
     colorCategory: '黄色系',
@@ -86,7 +86,7 @@ export const flowersData = [
   {
     id: 8,
     name: '月季',
-    image: 'https://ts1.tc.mm.bing.net/th/id/R-C.dfdb99098864113b20e2f9249050fd01?rik=J90zIfm3ArCQWw&riu=http%3a%2f%2fn.sinaimg.cn%2fsinacn08%2f213%2fw2048h1365%2f20180809%2f219b-hhnunsp7301738.jpg&ehk=EZxaUMANbAfAiTOLhJv%2f%2bqZubmZvdMPrWr8DC14bbog%3d&risl=&pid=ImgRaw&r=0',
+    image: '/images/flowers/photo-月季.jpg',
     season: '夏季',
     color: '#ff69b4',
     colorCategory: '多色混色',
@@ -98,7 +98,7 @@ export const flowersData = [
   {
     id: 9,
     name: '杜鹃',
-    image: 'https://tgi12.jia.com/114/936/14936926.jpg',
+    image: '/images/flowers/photo-杜鹃.jpg',
     season: '春季',
     color: '#e74c3c',
     colorCategory: '红色系',
@@ -110,7 +110,7 @@ export const flowersData = [
   {
     id: 10,
     name: '山茶',
-    image: 'https://img95.699pic.com/photo/60027/4635.jpg_wh860.jpg',
+    image: '/images/flowers/photo-山茶.jpg',
     season: '冬季',
     color: '#e74c3c',
     colorCategory: '红色系',
@@ -122,7 +122,7 @@ export const flowersData = [
   {
     id: 11,
     name: '郁金香',
-    image: 'https://img95.699pic.com/photo/50046/3742.jpg_wh860.jpg',
+    image: '/images/flowers/photo-郁金香.jpg',
     season: '春季',
     color: '#9b59b6',
     colorCategory: '粉紫系',
@@ -134,7 +134,7 @@ export const flowersData = [
   {
     id: 12,
     name: '百合',
-    image: 'https://imgs.699pic.com/images/600/748/962.jpg!detail.v1',
+    image: '/images/flowers/photo-百合.jpg',
     season: '夏季',
     color: '#ecf0f1',
     colorCategory: '白色系',
@@ -146,7 +146,7 @@ export const flowersData = [
   {
     id: 13,
     name: '向日葵',
-    image: 'https://img95.699pic.com/photo/40250/1262.jpg_wh860.jpg',
+    image: '/images/flowers/photo-向日葵.jpg',
     season: '秋季',
     color: '#f1c40f',
     colorCategory: '黄色系',
@@ -158,7 +158,7 @@ export const flowersData = [
   {
     id: 14,
     name: '薰衣草',
-    image: 'https://ts3.tc.mm.bing.net/th/id/OIP-C.xk8O8cudJ929DmAoB6ngEQHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3',
+    image: '/images/flowers/photo-薰衣草.jpg',
     season: '夏季',
     color: '#9b59b6',
     colorCategory: '粉紫系',
@@ -170,7 +170,7 @@ export const flowersData = [
   {
     id: 15,
     name: '樱花',
-    image: 'https://img95.699pic.com/photo/60066/6119.jpg_wh860.jpg',
+    image: '/images/flowers/photo-樱花.jpg',
     season: '春季',
     color: '#ffb6c1',
     colorCategory: '多色混色',
@@ -182,7 +182,7 @@ export const flowersData = [
   {
     id: 16,
     name: '水仙',
-    image: 'https://imgs.699pic.com/images/600/830/571.jpg!detail.v1',
+    image: '/images/flowers/photo-水仙.jpg',
     season: '夏季',
     color: '#f1c40f',
     colorCategory: '黄色系',
@@ -194,7 +194,7 @@ export const flowersData = [
   {
     id: 17,
     name: '茉莉',
-    image: 'https://pic2.zhimg.com/v2-0927d563b64feb1b0445deb144be0007_r.jpg',
+    image: '/images/flowers/photo-茉莉.jpg',
     season: '夏季',
     color: '#ecf0f1',
     colorCategory: '白色系',
@@ -206,7 +206,7 @@ export const flowersData = [
   {
     id: 18,
     name: '康乃馨',
-    image: 'https://imgs.699pic.com/images/600/760/397.jpg!detail.v1',
+    image: '/images/flowers/photo-康乃馨.jpg',
     season: '春季',
     color: '#e74c3c',
     colorCategory: '红色系',
@@ -218,10 +218,10 @@ export const flowersData = [
   {
     id: 19,
     name: '鸢尾',
-    image: 'https://imgs.699pic.com/images/600/798/259.jpg!detail.v1',
+    image: '/images/flowers/photo-鸢尾.jpg',
     season: '春季',
     color: '#9b59b6',
-    colorCategory: '粉紫系',
+    colorCategory: '蓝色系',
     bloomPeriod: '4-6月',
     habitat: '喜阳光充足，耐寒性强',
     description: '鸢尾是鸢尾科鸢尾属植物，花形如鸢的尾巴而得名。鸢尾象征着光明、自由和智慧，是法国国花，也是艺术创作中的常见题材。',
@@ -230,7 +230,7 @@ export const flowersData = [
   {
     id: 20,
     name: '紫罗兰',
-    image: 'https://img95.699pic.com/photo/60099/1329.jpg_wh860.jpg',
+    image: '/images/flowers/photo-紫罗兰.jpg',
     season: '春季',
     color: '#9b59b6',
     colorCategory: '粉紫系',

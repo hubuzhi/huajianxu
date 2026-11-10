@@ -118,7 +118,8 @@ function FlowerHome() {
                     alt={selectedFlower.name}
                     style={styles.flowerImage}
                     onError={(e) => {
-                      e.target.src = `https://via.placeholder.com/800x400/${selectedFlower.color.substring(1)}/FFFFFF?text=${encodeURIComponent(selectedFlower.name)}`;
+                      e.target.onerror = null;
+                        e.target.src = '/images/fallback.svg';
                     }}
                   />
                   <div style={styles.imageOverlay}>

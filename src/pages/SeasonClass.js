@@ -3,10 +3,10 @@ import { useNavigate, Link } from 'react-router-dom';
 import { seasonCategories } from '../data/flowers';
 
 const seasonImages = {
-  spring: 'https://images.unsplash.com/photo-1520969166167-30d981759765?w=800&h=200&fit=crop',
-  summer: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=200&fit=crop',
-  autumn: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=200&fit=crop',
-  winter: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=200&fit=crop'
+  spring: '/images/banner-season-spring.svg',
+  summer: '/images/banner-season-summer.svg',
+  autumn: '/images/banner-season-autumn.svg',
+  winter: '/images/banner-season-winter.svg'
 };
 
 function SeasonClass() {

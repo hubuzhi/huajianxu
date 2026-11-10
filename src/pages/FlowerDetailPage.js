@@ -248,7 +248,7 @@ const flowersData = [
     price: 8.8,
     origin: '中国是玫瑰的原产地之一，有着悠久的栽培历史',
     story: '玫瑰被誉为"花中皇后"，在古希腊神话中，玫瑰是爱与美的女神阿芙洛狄忒的象征。在中国传统文化中，玫瑰也有着重要的地位，常被用于表达爱情和美好祝愿。红玫瑰更是成为情人节最受欢迎的礼物。',
-    image: 'https://bpic.588ku.com/back_list_pic/20/08/04/d3062373fb097200f4515a268ce7ef84.jpg',
+    image: '/images/flowers/photo-玫瑰.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#e74c3c', colorName: '红色', meaning: '热恋、热情' },
@@ -278,7 +278,7 @@ const flowersData = [
     price: 25.0,
     origin: '中国原产，栽培历史超过1500年',
     story: '牡丹被誉为"花中之王"，是中国传统名花。在唐代，牡丹尤为盛行，长安城中牡丹盛开时万人空巷。牡丹象征着富贵荣华，常出现在宫廷绘画和诗词中。洛阳牡丹更是闻名天下。',
-    image: 'https://i01piccdn.sogoucdn.com/476d18a0702679e6',
+    image: '/images/flowers/photo-牡丹.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#f39c12', colorName: '黄色', meaning: '高贵、典雅' },
@@ -308,7 +308,7 @@ const flowersData = [
     price: 5.5,
     origin: '中国原产，已有3000多年栽培历史',
     story: '菊花在中国文化中有着特殊地位，是花中四君子之一。陶渊明"采菊东篱下，悠然见南山"的诗句让菊花成为隐逸和高洁的象征。菊花也是重阳节的象征花卉。',
-    image: 'https://bpic.588ku.com/back_list_pic/20/11/05/3b176f9911dd82ea9058e4f21e8923d8.jpg',
+    image: '/images/flowers/photo-菊花.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#f1c40f', colorName: '黄色', meaning: '高贵、长寿' },
@@ -338,7 +338,7 @@ const flowersData = [
     price: 38.0,
     origin: '中国是兰花的重要原产地',
     story: '兰花是花中四君子之一，在中国文化中象征着高洁典雅。孔子曾说"芝兰生于深林，不以无人而不芳"，表达了兰花的君子品格。兰花的香气清幽，被誉为"香祖"。',
-    image: 'https://img95.699pic.com/photo/60073/7987.jpg_wh860.jpg',
+    image: '/images/flowers/photo-兰花.jpg',
     status: 'inactive',
     colorMeanings: [
       { color: '#9b59b6', colorName: '紫色', meaning: '高贵、神秘' },
@@ -367,7 +367,7 @@ const flowersData = [
     price: 12.0,
     origin: '中国原产，栽培历史悠久',
     story: '梅花是花中四君子之一，以其傲雪凌霜的品格著称。王安石"墙角数枝梅，凌寒独自开"的诗句生动描绘了梅花的坚韧。梅花也是中国传统文化中坚韧不拔精神的象征。',
-    image: 'https://imgs.699pic.com/images/600/618/300.jpg!detail.v1',
+    image: '/images/flowers/photo-梅花.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ff6b9d', colorName: '粉色', meaning: '柔美、坚韧' },
@@ -396,7 +396,7 @@ const flowersData = [
     price: 15.0,
     origin: '中国原产，有着悠久的栽培历史',
     story: '荷花出淤泥而不染，在中国文化中象征着纯洁和正直。佛教中，荷花是重要的象征物，代表着觉悟和超脱。周敦颐的《爱莲说》更是将荷花的品格推崇到极致。',
-    image: 'https://bpic.588ku.com/video_listen/588ku_pic/23/07/01/b636c9069ce6547cfd43e5bd8957ed31.jpg',
+    image: '/images/flowers/photo-荷花.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ffffff', colorName: '白色', meaning: '纯洁、无瑕' },
@@ -425,7 +425,7 @@ const flowersData = [
     price: 18.0,
     origin: '中国原产，栽培历史悠久',
     story: '桂花以其浓郁的香气著称，在中国文化中象征着吉祥和美好。中秋节赏桂是传统习俗，桂花也是制作桂花糕、桂花酒的重要原料。月中的桂树传说更是增添了桂花的神秘色彩。',
-    image: 'https://bpic.588ku.com/photo_water_img/24/03/20/338d0b16b3ab9c1b558b409b5189cef3.jpg',
+    image: '/images/flowers/photo-桂花.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#f1c40f', colorName: '金色', meaning: '富贵、吉祥' },
@@ -454,7 +454,7 @@ const flowersData = [
     price: 6.5,
     origin: '原产于土耳其，后传入欧洲',
     story: '郁金香最初在土耳其被栽培，后来传入荷兰并成为国花。在17世纪的荷兰，郁金香曾引发疯狂的投机热潮，史称"郁金香泡沫"。如今，郁金香是世界著名的球根花卉，象征着完美的爱情。',
-    image: 'https://i03piccdn.sogoucdn.com/a0aa88ef24860d18',
+    image: '/images/flowers/photo-郁金香.jpg',
     status: 'inactive',
     colorMeanings: [
       { color: '#e74c3c', colorName: '红色', meaning: '热烈的爱情' },
@@ -484,7 +484,7 @@ const flowersData = [
     price: 9.9,
     origin: '中国是月季的原产地之一',
     story: '月季被誉为"花中皇后"，是中国十大名花之一。月季花期长，品种繁多，色彩丰富，是世界上品种最多的花卉之一。在中国传统文化中，月季象征着幸福和美好的生活。',
-    image: 'https://ts1.tc.mm.bing.net/th/id/R-C.dfdb99098864113b20e2f9249050fd01?rik=J90zIfm3ArCQWw&riu=http%3a%2f%2fn.sinaimg.cn%2fsinacn08%2f213%2fw2048h1365%2f20180809%2f219b-hhnunsp7301738.jpg&ehk=EZxaUMANbAfAiTOLhJv%2f%2bqZubmZvdMPrWr8DC14bbog%3d&risl=&pid=ImgRaw&r=0',
+    image: '/images/flowers/photo-月季.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ff6b9d', colorName: '粉色', meaning: '幸福、甜美' },
@@ -514,7 +514,7 @@ const flowersData = [
     price: 22.0,
     origin: '中国原产，品种丰富',
     story: '杜鹃花是中国十大名花之一，被誉为"花中西施"。杜鹃花品种繁多，色彩艳丽，春季盛开时漫山遍野，蔚为壮观。杜鹃花也象征着对远方亲人的思念，典故"杜鹃啼血"流传至今。',
-    image: 'https://tgi12.jia.com/114/936/14936926.jpg',
+    image: '/images/flowers/photo-杜鹃.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#e74c3c', colorName: '红色', meaning: '繁荣、热烈' },
@@ -544,7 +544,7 @@ const flowersData = [
     price: 28.0,
     origin: '中国原产，主要分布在南方',
     story: '山茶花是中国传统名花，也是世界名贵花木之一。山茶花花朵硕大，色彩艳丽，花期长达数月，深受人们喜爱。山茶花象征着理想的爱和谦逊的美德。',
-    image: 'https://i03piccdn.sogoucdn.com/ab50f67fcd4dabd7',
+    image: '/images/flowers/photo-山茶.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#e74c3c', colorName: '红色', meaning: '理想的爱' },
@@ -573,7 +573,7 @@ const flowersData = [
     price: 10.0,
     origin: '中国原产，品种众多',
     story: '百合花象征着纯洁和神圣，在西方常用于宗教仪式。在中国，百合寓意"百年好合"，是婚礼上的常见花卉。百合花型优雅，香气清新，深受人们喜爱。',
-    image: 'https://imgs.699pic.com/images/600/748/962.jpg!detail.v1',
+    image: '/images/flowers/photo-百合.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ffffff', colorName: '白色', meaning: '纯洁、神圣' },
@@ -602,7 +602,7 @@ const flowersData = [
     price: 6.0,
     origin: '北美洲原产，现全球种植',
     story: '向日葵因其花盘始终朝向太阳而得名，象征着忠诚和阳光的信念。向日葵花盘硕大，色彩明亮，给人以积极向上的力量。梵高的著名画作《向日葵》更是让这种花闻名世界。',
-    image: 'https://i02piccdn.sogoucdn.com/cc74df8ec89936a0',
+    image: '/images/flowers/photo-向日葵.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#f1c40f', colorName: '黄色', meaning: '阳光、活力' },
@@ -630,7 +630,7 @@ const flowersData = [
     price: 7.5,
     origin: '地中海地区原产',
     story: '薰衣草以其独特的芳香闻名于世，被誉为"宁静的香水植物"。在法国普罗旺斯，薰衣草花海是著名的旅游景观。薰衣草象征着浪漫的爱情和宁静的心境。',
-    image: 'https://i02piccdn.sogoucdn.com/c7e8e27efd84fbe5',
+    image: '/images/flowers/photo-薰衣草.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#9b59b6', colorName: '紫色', meaning: '等待爱情' },
@@ -658,7 +658,7 @@ const flowersData = [
     price: 15.0,
     origin: '中国原产，后传至日本',
     story: '樱花花期短暂，绚烂而美丽，象征着生命的珍贵和瞬间的美好。在日本，樱花是国花，每年春季赏樱是重要的文化活动。樱花的美丽和易逝引发了人们对美好时光的珍惜。',
-    image: 'https://i04piccdn.sogoucdn.com/c827ae676ba55e3b',
+    image: '/images/flowers/photo-樱花.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ff6b9d', colorName: '粉色', meaning: '浪漫、甜美' },
@@ -686,7 +686,7 @@ const flowersData = [
     price: 4.5,
     origin: '中国原产，栽培历史悠久',
     story: '水仙花在中国有着悠久的栽培历史，是中国传统名花之一。水仙花型优雅，香气清幽，是冬季少花季节的重要观赏花卉。希腊神话中纳西索斯化身为水仙的故事也流传至今。',
-    image: 'https://i02piccdn.sogoucdn.com/484eb0b7660a1e85',
+    image: '/images/flowers/photo-水仙.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ffffff', colorName: '白色', meaning: '纯洁、吉祥' },
@@ -714,7 +714,7 @@ const flowersData = [
     price: 8.0,
     origin: '亚洲南部原产',
     story: '茉莉花香气浓郁，被誉为"花中之王"。茉莉花象征着忠贞不渝的爱情，在菲律宾、印尼等国家是国花。茉莉花茶更是中国茶文化中的重要组成部分。',
-    image: 'https://i01piccdn.sogoucdn.com/53b21aa5a976a9fa',
+    image: '/images/flowers/photo-茉莉.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ffffff', colorName: '白色', meaning: '忠贞、纯洁' },
@@ -741,7 +741,7 @@ const flowersData = [
     price: 3.5,
     origin: '地中海地区原产',
     story: '康乃馨是母亲节的象征花卉，代表着母爱和感恩。康乃馨花型优美，花期长，是世界著名的切花之一。不同颜色的康乃馨寓意也不同，粉色象征母爱，红色象征爱和感激。',
-    image: 'https://i01piccdn.sogoucdn.com/e27a663706c1e0f5',
+    image: '/images/flowers/photo-康乃馨.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#ff6b9d', colorName: '粉色', meaning: '母爱、祝福' },
@@ -771,7 +771,7 @@ const flowersData = [
     price: 11.0,
     origin: '中国原产，栽培历史悠久',
     story: '鸢尾花因花瓣形似鸢鸟的尾巴而得名。在希腊神话中，鸢尾是彩虹女神的象征。鸢尾花型独特，色彩淡雅，是世界著名的观赏花卉。法国国王路易七世将鸢尾作为王室的标志。',
-    image: 'https://i02piccdn.sogoucdn.com/7e30b68e927629de',
+    image: '/images/flowers/photo-鸢尾.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#3498db', colorName: '蓝色', meaning: '信仰、希望' },
@@ -800,7 +800,7 @@ const flowersData = [
     price: 5.0,
     origin: '地中海地区原产',
     story: '紫罗兰花朵密集，色彩淡雅，香气清甜。紫罗兰象征着永恒的美和质朴的爱，是欧洲传统的名花之一。在古希腊神话中，紫罗兰是女神维纳斯的象征花卉。',
-    image: 'https://i04piccdn.sogoucdn.com/e9f38571990e7ed2',
+    image: '/images/flowers/photo-紫罗兰.jpg',
     status: 'active',
     colorMeanings: [
       { color: '#9b59b6', colorName: '紫色', meaning: '永恒的美' },
