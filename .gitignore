@@ -27,3 +27,6 @@ yarn-error.log*
 
 # 编辑时的备份文件
 *.bak
+
+# 本地启动脚本（Windows 专用，不入库）
+启动项目.bat
