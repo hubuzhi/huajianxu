@@ -30,6 +30,7 @@ import DataReports from '../pages/DataReports';
 import CustomerManage from '../pages/CustomerManage';
 import MarketingManage from '../pages/MarketingManage';
 import StaffManage from '../pages/StaffManage';
+import RequireAuth from '../components/RequireAuth';
 
 const router = createBrowserRouter([
   {
@@ -70,15 +71,15 @@ const router = createBrowserRouter([
   },
   {
     path: '/collections',
-    element: <Collections />,
+    element: <RequireAuth><Collections /></RequireAuth>,
   },
   {
     path: '/achievements',
-    element: <Achievements />,
+    element: <RequireAuth><Achievements /></RequireAuth>,
   },
   {
     path: '/garden',
-    element: <Garden />,
+    element: <RequireAuth><Garden /></RequireAuth>,
   },
   {
     path: '/flower/story/:flowerId',
@@ -115,43 +116,43 @@ const router = createBrowserRouter([
   },
   {
     path: '/admin/flowers',
-    element: <FlowerManage />,
+    element: <RequireAuth roles={['admin']}><FlowerManage /></RequireAuth>,
   },
   {
     path: '/admin/users',
-    element: <UserManage />,
+    element: <RequireAuth roles={['admin']}><UserManage /></RequireAuth>,
   },
   {
     path: '/admin/content',
-    element: <ContentReview />,
+    element: <RequireAuth roles={['admin']}><ContentReview /></RequireAuth>,
   },
   {
     path: '/admin/comments',
-    element: <CommentManage />,
+    element: <RequireAuth roles={['admin']}><CommentManage /></RequireAuth>,
   },
   {
     path: '/admin/orders',
-    element: <OrderManage />,
+    element: <RequireAuth roles={['admin']}><OrderManage /></RequireAuth>,
   },
   {
     path: '/admin/settings',
-    element: <SystemSettings />,
+    element: <RequireAuth roles={['admin']}><SystemSettings /></RequireAuth>,
   },
   {
     path: '/admin/reports',
-    element: <DataReports />,
+    element: <RequireAuth roles={['admin']}><DataReports /></RequireAuth>,
   },
   {
     path: '/admin/customers',
-    element: <CustomerManage />,
+    element: <RequireAuth roles={['admin']}><CustomerManage /></RequireAuth>,
   },
   {
     path: '/admin/marketing',
-    element: <MarketingManage />,
+    element: <RequireAuth roles={['admin']}><MarketingManage /></RequireAuth>,
   },
   {
     path: '/admin/staff',
-    element: <StaffManage />,
+    element: <RequireAuth roles={['admin']}><StaffManage /></RequireAuth>,
   },
 ]);
 

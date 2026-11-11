@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { initUsers, loginUser } from '../data/users';
 
 function Login() {
@@ -11,6 +11,10 @@ function Login() {
   const [loading, setLoading] = useState(false);
   const [focusedField, setFocusedField] = useState('');
   const navigate = useNavigate();
+  const location = useLocation();
+  // 被路由守卫拦截时记录的来源路径，登录成功后优先回跳
+  const from = location.state && location.state.from;
+
 
   useEffect(() => {
     initUsers();
@@ -72,7 +76,7 @@ function Login() {
       console.log('登录成功:', userData);
       localStorage.setItem('user', JSON.stringify(userData));
       localStorage.setItem('token', userData.token);
-      navigate('/home');
+      navigate(from || '/home', { replace: true });
     } catch (error) {
       console.error('登录失败:', error);
       if (error.code === 401 && error.message === 'USER_NOT_REGISTERED') {
