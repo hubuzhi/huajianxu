@@ -13,9 +13,9 @@
 
 ![我的收藏](docs/screenshots/flower-list.png)
 
-**按颜色分类**（5 个色系分组，点击进入对应花卉列表）
+**数据统计报表**（环形图与柱状图均由原生 SVG 绘制，未引入任何第三方图表库）
 
-![按颜色分类](docs/screenshots/color-class.png)
+![数据统计报表](docs/screenshots/data-reports.png)
 
 ---
 
