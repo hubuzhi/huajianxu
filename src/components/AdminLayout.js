@@ -25,6 +25,18 @@ function AdminLayout({ children, activeModule }) {
     { id: 'systemSettings', label: '系统设置', icon: 'settings', path: '/admin/settings' },
   ];
 
+  // 按角色过滤菜单：普通用户只看到公共页，后台管理项仅管理员可见
+  let currentUser = null;
+  try {
+    currentUser = JSON.parse(localStorage.getItem('user') || 'null');
+  } catch (e) {
+    currentUser = null;
+  }
+  const isAdmin = !!(currentUser && currentUser.role === 'admin');
+  const visibleMenuItems = menuItems.filter(
+    (item) => isAdmin || !item.path.startsWith('/admin')
+  );
+
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (accountDropdown && !e.target.closest('.account-dropdown')) {
@@ -56,7 +68,7 @@ function AdminLayout({ children, activeModule }) {
         </div>
 
         <div style={styles.menuSection}>
-          {menuItems.map((item) => (
+          {visibleMenuItems.map((item) => (
             <button
               key={item.id}
               onClick={() => navigate(item.path)}
